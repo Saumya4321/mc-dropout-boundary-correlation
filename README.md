@@ -1,4 +1,4 @@
-# mc-dropout-boundary-correlation
+# Limitations of MC Dropout for Error Localization in 2-D Brain Tumor Segmentation 
 
 1. Project title and description
 Explain that this is an uncertainty analysis for 2D brain tumor segmentation using MC Dropout.
