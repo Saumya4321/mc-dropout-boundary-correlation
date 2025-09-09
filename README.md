@@ -6,5 +6,6 @@ Accurate Segmentation of brain tumors in magnetic resonance imaging (MRI) plays 
 ## Results
 
 <img width="721" height="814" alt="Screenshot 2025-09-08 171138" align="center" src="https://github.com/user-attachments/assets/e095c65e-fd22-4327-bc18-6b40559920f0" />
+<br>
 
 <img width="651" height="205" alt="Screenshot 2025-09-09 121800" src="https://github.com/user-attachments/assets/24ac2f9f-67a9-48e3-bee8-64732bb5a012" />
