@@ -1,0 +1,11 @@
+{
+    "Test loss": 0.002615718636661768,
+    "Test accuracy": 0.9939790368080139,
+    "Test precision": 0.8561530709266663,
+    "Test recall": 0.779670238494873,
+    "Computed Mean IoU": 0.6910367395680734,
+    "Computed Std IoU": 0.2635139945360527,
+    "Per-image mean IoU": "0.6910 \u00b1 0.2635",
+    "Global Precision": 0.8561530709266663,
+    "Global Recall": 0.779670238494873
+}
