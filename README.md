@@ -8,4 +8,4 @@ In this project, we investigate the relationship between MC Dropout uncertainty 
 
 ## Results
 
-<img width="721" height="814" alt="Screenshot 2025-09-08 171138" text-align="center" src="https://github.com/user-attachments/assets/e095c65e-fd22-4327-bc18-6b40559920f0" />
+<img width="721" height="814" alt="Screenshot 2025-09-08 171138" align="center" src="https://github.com/user-attachments/assets/e095c65e-fd22-4327-bc18-6b40559920f0" />
