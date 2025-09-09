@@ -6,3 +6,6 @@ Accurate segmentation of brain tumors in magnetic resonance imaging (MRI) plays 
 <br>
 In this project, we investigate the relationship between MC Dropout uncertainty and segmentation errors in the context of 2D brain tumor segmentation. Specifically, we explore whether uncertainty estimates can effectively highlight error-prone regions at tumor boundaries, which are critical areas for clinical decision-making. We further evaluate this relationship under different data augmentation settings to assess the robustness of uncertainty estimates and perform statistical analyses to determine the significance and practical relevance of observed correlations.
 
+## Results
+
+<img width="721" height="814" alt="Screenshot 2025-09-08 171138" src="https://github.com/user-attachments/assets/e095c65e-fd22-4327-bc18-6b40559920f0" />
