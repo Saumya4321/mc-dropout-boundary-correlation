@@ -1,0 +1,9 @@
+=== Dataset-Level Summary ===
+Average Total Uncertainty: 0.0027
+
+Average Boundary Metrics Across Test Data:
+mean_boundary_uncertainty: 0.0554
+std_boundary_uncertainty: 0.0169
+max_boundary_uncertainty: 0.0991
+boundary_length: 257.8695
+total_uncertainty: 0.0027
