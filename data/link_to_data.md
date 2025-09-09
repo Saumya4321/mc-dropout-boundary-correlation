@@ -1,6 +1,6 @@
-Dataset used for the code in this repository -> https://www.kaggle.com/datasets/nikhilroxtomar/brain-tumor-segmentation
++ Dataset used for the code in this repository -> https://www.kaggle.com/datasets/nikhilroxtomar/brain-tumor-segmentation
 
-The above Kaggle dataset is actually sourced from the following Figshare dataset, as mentioned in papers [1,2] -> https://figshare.com/articles/dataset/brain_tumor_dataset/1512427
++ The above Kaggle dataset is actually sourced from the following Figshare dataset, as mentioned in papers [1,2] -> https://figshare.com/articles/dataset/brain_tumor_dataset/1512427
 
 
 [1] Cheng, Jun, et al. "Enhanced Performance of Brain Tumor Classification via Tumor Region Augmentation and Partition." PloS one 10.10 (2015)
