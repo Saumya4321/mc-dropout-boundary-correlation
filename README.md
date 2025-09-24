@@ -1,4 +1,4 @@
-# Limitations of MC Dropout for Error Localization in 2-D Brain Tumor Segmentation 
+# Empirical study on reliability of MC Dropout for Error Localization in 2-D Brain Tumor Segmentation 
 
 ## Description
 Accurate Segmentation of brain tumors in magnetic resonance imaging (MRI) plays a crucial role in diagnosis, treatment planning, and monitoring of disease progression. But its trust-worthiness is questioned by clinicians along with being extremely challenging near the tumor boundaries. This project investigates the use of Monte Carlo (MC) Dropout to estimate uncertainty and identify segmentation errors in 2D brain tumor segmentation. We analyze whether uncertainty maps effectively highlight error-prone regions, especially at boundaries, and assess the impact of different data augmentations through statistical correlation analysis.
