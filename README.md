@@ -79,14 +79,6 @@ Two sets of parameter combinations were tested:
 
 
 
-#### Uncertainty visualizations for different augmentations
-
-![image](https://github.com/user-attachments/assets/40279e84-4411-42e9-b9ad-64ffc4efbd32)
-
-
-
-
-
 ## Citation
 
 If you find this work useful, please cite:
