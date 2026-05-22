@@ -91,22 +91,20 @@ In this study, each test image plays the role of a "patient." It gets one Pearso
 
 The Wilcoxon signed-rank test serves as a non-parametric backup — it makes no assumption about the distribution of differences, making the conclusions more robust.
 
----
 
 ## Citation
 
 If you find this work useful, please cite:
 
 ```
-@article{saumya2025mcdropout,
+@article{saumya2026mcdropout,
   title={An Empirical Study on Variance-based MC Dropout Uncertainty--Error Correlation in 2D Brain Tumor Segmentation},
   author={Saumya B},
   journal={arXiv preprint arXiv:2510.15541},
-  year={2025}
+  year={2026}
 }
 ```
 
----
 
 ## Code and Weights
 
