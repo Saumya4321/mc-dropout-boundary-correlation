@@ -108,7 +108,7 @@ If you find this work useful, please cite:
 
 ## Code and Weights
 
-All experimental configurations are available in this repository. Model weights can be downloaded from [Google Drive](https://drive.google.com/file/d/1YChnisdNceJbb9c4KcS6WbjdLOr4_B1K/view?usp=sharing).
+All experimental configurations are available in this repository. Model weights can be downloaded from [Google Drive](https://drive.google.com/drive/folders/1vzOuyyP2BSgmmIgk9kX_5hGxUKkx1DzH?usp=sharing).
 
 
 
