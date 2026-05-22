@@ -72,25 +72,6 @@ The figure below shows predicted segmentation masks and variance-based uncertain
 The uncertainty maps show high variance spread across large regions of the image — including areas where the model predicted correctly. The regions of highest uncertainty do not consistently coincide with where the model actually made errors, particularly at tumor boundaries. This visually illustrates the central finding of the study: variance-based MC Dropout uncertainty is not a reliable indicator of where segmentation errors occur.
 
 
-## Understanding the Statistical Tests
-
-### What is a p-value?
-
-A p-value answers: *if there were actually no difference between two conditions, how likely would it be to see a result as extreme as ours just by chance?*
-
-- p = 0.05 means there is a 5% chance the result happened randomly
-- p < 0.001 means it is extremely unlikely to be random noise
-
-**Important:** a small p-value only tells you the difference is *real*, not that it is *large* or *meaningful*. This is why the paper reports both statistical significance (p < 0.001) and practical significance (ΔMean < 0.07) — the differences between augmentation settings are detectable but negligibly small. Large sample sizes give tests enormous statistical power, which is why even tiny differences yield very small p-values.
-
-### What is a Paired t-test?
-
-Imagine you want to know if a drug reduces blood pressure. You measure 10 patients *before* and *after* taking the drug. Each patient gives you a pair of values. The paired t-test looks at the *difference within each patient* — did their own blood pressure go down? — rather than comparing two independent groups. This accounts for natural variation between individuals.
-
-In this study, each test image plays the role of a "patient." It gets one Pearson correlation value under no-augmentation and one under (say) horizontal flip. The paired t-test asks: within each image, did the uncertainty–error correlation change between conditions? It then checks whether that change is consistent enough across all images to be non-random.
-
-The Wilcoxon signed-rank test serves as a non-parametric backup — it makes no assumption about the distribution of differences, making the conclusions more robust.
-
 
 ## Citation
 
