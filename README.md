@@ -78,8 +78,18 @@ Two sets of parameter combinations were tested:
 
 <img width="2205" height="1278" alt="uncertainty heatmaps" src="https://github.com/user-attachments/assets/dd0f338e-02c3-41a3-bb77-8a8e921f8cde" />
 
+| Technique | % of training dataset applied on | Parameters |
+| -------- | -------- | -------- |
+| Horizontal Flip | 50% | none |
+| Rotation | 50% | Angle: ± 15° |
+| Random Scaling | 50% | Range: 0.8 - 1.2 |
 
-
+| Augmentation type | Pearson r (Global) | Spearman (Global) | Pearson r (boundary) | Spearman (boundary) |
+| --- | --- | --- | --- | --- |
+| No augmentation | 0.3365 | 0.1115 | -0.0006 | -0.0054|
+| Horizontal Flip | 0.3014 | 0.1198 | 0.0369 | 0.0349 |
+| Rotation | 0.3106 | 0.1171 | 0.0458 | 0.0453 |
+| Scaling | 0.3781 | 0.1136 | 0.0195 | 0.0171|
 
 ## Citation
 
