@@ -63,20 +63,6 @@ Two sets of parameter combinations were tested:
 (ii) α=2.0, γ=0.75
 
 #### Data augmentation
-![image](https://github.com/user-attachments/assets/80a07156-4380-4f9f-9c3a-3dd0be9953a5)
-
-
-
-## Results
-<img width="651" height="205" alt="Screenshot 2025-09-09 121800" src="https://github.com/user-attachments/assets/24ac2f9f-67a9-48e3-bee8-64732bb5a012" />
-
-<br>
-<br>
-<img width="721" height="814" alt="Screenshot 2025-09-08 171138" align="center" src="https://github.com/user-attachments/assets/e095c65e-fd22-4327-bc18-6b40559920f0" />
-
-### Uncertainty Analysis of Augmentation Techniques in Brain Tumor Segmentation
-
-<img width="2205" height="1278" alt="uncertainty heatmaps" src="https://github.com/user-attachments/assets/dd0f338e-02c3-41a3-bb77-8a8e921f8cde" />
 
 | Technique | % of training dataset applied on | Parameters |
 | -------- | -------- | -------- |
@@ -84,12 +70,21 @@ Two sets of parameter combinations were tested:
 | Rotation | 50% | Angle: ± 15° |
 | Random Scaling | 50% | Range: 0.8 - 1.2 |
 
+
+
+## Results
 | Augmentation type | Pearson r (Global) | Spearman (Global) | Pearson r (boundary) | Spearman (boundary) |
 | --- | --- | --- | --- | --- |
 | No augmentation | 0.3365 | 0.1115 | -0.0006 | -0.0054|
 | Horizontal Flip | 0.3014 | 0.1198 | 0.0369 | 0.0349 |
 | Rotation | 0.3106 | 0.1171 | 0.0458 | 0.0453 |
 | Scaling | 0.3781 | 0.1136 | 0.0195 | 0.0171|
+### Uncertainty Analysis of Augmentation Techniques in Brain Tumor Segmentation
+
+<img width="2205" height="1278" alt="uncertainty heatmaps" src="https://github.com/user-attachments/assets/dd0f338e-02c3-41a3-bb77-8a8e921f8cde" />
+
+
+
 
 ## Citation
 
