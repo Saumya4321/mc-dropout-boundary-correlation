@@ -76,6 +76,7 @@ Two sets of parameter combinations were tested:
 
 ### Uncertainty Analysis of Augmentation Techniques in Brain Tumor Segmentation
 
+<img width="2205" height="1278" alt="uncertainty heatmaps" src="https://github.com/user-attachments/assets/dd0f338e-02c3-41a3-bb77-8a8e921f8cde" />
 
 
 
