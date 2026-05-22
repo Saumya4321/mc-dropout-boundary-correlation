@@ -59,7 +59,7 @@ mcd-error-correlation/
 | Rotation | 0.3106 | 0.1171 | 0.0458 | 0.0453 |
 | Scaling | 0.3781 | 0.1136 | 0.0195 | 0.0171|
 
-Global correlations are weak; boundary correlations are negligible. Differences across augmentation settings are statistically significant (p < 0.001) but practically negligible (ΔMean < 0.05).
+Global correlations are weak; boundary correlations are negligible. Differences across augmentation settings are statistically significant (p < 0.001) but practically negligible (ΔMean < 0.07).
 
 ### Uncertainty heatmaps obtained for different augmentation settings
 
